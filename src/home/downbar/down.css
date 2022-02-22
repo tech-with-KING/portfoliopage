@@ -1,0 +1,178 @@
+.downcomponent{
+    height: 100vh;
+    background-color:black;
+   
+}
+ .bottomnavbar{
+    width:  100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgb(189, 183, 183);    
+}
+
+/* twin top div */
+.tech_stacks{
+    width: 60%;
+    height: 100%;
+    background-color: red;
+}
+
+.none{
+    width: 40%;
+    height: 100%;
+    color: pink;
+}
+
+/* 
+tech stacks */
+
+.tech_stacks ul{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 20px;
+    list-style: none;
+    line-height: 25px;
+    background-color: rgb(105, 103, 103);
+} 
+
+.tech_stacks ul li{
+    transition: 0.5s ease;
+}
+
+.tech_stacks ul li:hover{
+ font-weight: bold;
+  color:white;
+}
+
+.mediahandles a .li {
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    list-style: none;
+    
+}
+.mediahandles  a {
+    padding: 3px;
+    border: none;
+    background-color: aliceblue;
+    height: 100%;
+    width: 16.67%;
+   
+    
+}
+.mediahandles{
+    height: 35px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(189, 183, 183);
+    width: 350px;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    height: 60px;
+    opacity: 0.9;
+    padding: 5px;
+    border-bottom: 2px solid rgb(235, 155, 8);
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    justify-content: flex-start;
+}
+
+.address{
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+    position: absolute;
+    letter-spacing: 2px;
+    position: relative;
+    top: -10%;
+    opacity: 0.6;
+}
+
+
+@media only screen and (min-width: 800px){
+
+    .bottomnavbar{
+        width:  100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        background-color:rgb(189, 183, 183);    
+    }
+   
+     .tech_stacks ul{
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        
+        right: 20px;
+        list-style: none;
+        line-height: 30px;
+        background-color: rgb(105, 103, 103);
+    } 
+
+    .tech_stacks ul li{
+        transition: 0.3s ease;
+    }
+    .mediahandles{
+        height: 35px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(189, 183, 183);
+        width: 350px;
+        opacity: 0.8;
+        background-color: black;
+    }
+    .tech_stacks ul li:hover{
+     font-weight: bold;
+      color:white;
+    }
+    
+    .line{
+        width: 100%;
+        display: flex;
+        height: 60px;
+        opacity: 0.9;
+        padding: 5px;
+        border-bottom: 2px solid rgb(235, 155, 8);
+        align-items: center;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        justify-content: flex-start;
+    }
+    .line h4{
+        color: white;
+        opacity: 0.8;
+    }
+    .address{
+        color: white;
+        font-size: 10px;
+        margin: 10px;
+        position: absolute;
+        left: 250px;
+        letter-spacing: 2px;
+        position: relative;
+        top: -10%;
+        opacity: 0.5;
+    }
+    
+    
+}

@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.inputdiv{
+    height: 80%;
+    margin-top: 45px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0,0.7);
+}
+.inputdiv .fullname{
+    display: none;
+}
+.inputdiv div{
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    width: 80%;
+    margin: 10px;
+    border-bottom: 3px solid rgb(240, 199, 39);
+    background-color: black;
+}
+.inputdiv div input{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(211, 101, 125);
+    border: none;
+}
+.button:hover{
+    background-color: rgb(34, 185, 102);
+}
+
+/* alternating styles */
+
+
+@media only screen and (min-width: 650px) {
+
+.about{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.inputdiv .fullname{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputdiv .firstname,.inputdiv .lastname{
+    display: none;
+}
+.inputdiv{
+    height: 80%;
+    margin-top: 45px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0,0.7);
+}
+.inputdiv div{
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    width: 80%;
+    margin: 10px;
+    border-bottom: 3px solid rgb(240, 199, 39);
+    background-color: black;
+}
+.inputdiv div input{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(211, 101, 125);
+    border: none;
+}
+.button:hover{
+    background-color: rgb(34, 185, 102);
+}
+}
