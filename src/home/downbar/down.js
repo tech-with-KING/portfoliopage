@@ -6,28 +6,35 @@ import Linkdin from './icons/linkdin.svg'
 import Twitter from './icons/twitter.svg'
 import Netlify from './icons/netlify.svg'
 import Gmail from './icons/gmail.svg'
-
+import HomeIcon from '@mui/icons-material/Home';
+import AppsIcon from '@mui/icons-material/Apps';
+import InfoIcon from '@mui/icons-material/Info';
+import PhoneIcon from '@mui/icons-material/Phone';
 const DownBar=()=>{
     return(
     <div className='downcomponent'>
-        {/* first half */}
+      
         <div className='bottomnavbar' >
             <div className='none' >
+                <li><HomeIcon /> Home</li>
+                <li><AppsIcon /> Projects</li>
+                <li><InfoIcon /> About</li>
+                <li><PhoneIcon /> Contact</li>
             </div>
             <div className='tech_stacks'>
                 <ul>
-                    <li>Javascript</li>
-                    <li>React-js</li>
-                    <li>Material UI</li>
-                    <li>Node Js</li>
-                    <li>Python</li>
-                    <li>Mongo-Db</li>
-                    <li>Fire-Base</li>
-                    <li>Bootstrap</li>
+                    <li>Javascript<div className='rate'><div className='rated'></div></div></li>
+                    <li>React-js<div className='rate'><div className='rated'></div></div></li>
+                    <li>Material UI<div className='rate'><div className='rated'></div></div></li>
+                    <li>Node Js<div className='rate'><div className='rated'></div></div></li>
+                    <li>Python<div className='rate'><div className='rated'></div></div></li>
+                    <li>Mongo-Db<div className='rate'><div className='rated'></div></div></li>
+                    <li>Fire-Base<div className='rate'><div className='rated'></div></div></li>
+                    <li>Bootstrap<div className='rate'><div className='rated'></div></div></li>
                 </ul>
             </div>
         </div>
-        {/* second half */}
+        
         <div className='bottom'>
             <div>
             <div className='mediahandles' >

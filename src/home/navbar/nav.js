@@ -27,15 +27,7 @@ const NavBar=()=>{
     return(
 
     <div className='navbar'>
-           <div className='menuebar' style={toggle?{width:'30%'}:{width:'0',paddingLeft:'0'}}>
-                <CancelOutlined className='cancel' style={{fontSize:'50px',fontWeight:'lighter'}} onClick={()=>{ toggle?settoggle(false) :settoggle(true)}} ></CancelOutlined>
-                <li><HomeIcon /> Home</li>
-                <li><AppsIcon /> Projects</li>
-                <li><InfoIcon /> About</li>
-                <li><PhoneIcon /> Contact</li>
-                {/* <main className='maine1'></main>
-                <main className='main2'></main> */}
-            </div>
+         
         
         <ul className='subnav'>
            <li>Home</li>

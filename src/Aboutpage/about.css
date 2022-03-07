@@ -215,6 +215,7 @@ main:hover{
 .center_errors p{
     width: 100%;
     justify-content: center;
+    background-color: rgb(255, 255, 255,0.5);
     padding: 30px;
     font-size: 1.4rem;
     font-weight: normal;
@@ -269,4 +270,22 @@ main:hover{
     font-size: 30px;
     font-weight: bold;
     background-color: aqua;
+}
+.center_errors_f p .madus{
+    width: 270px;
+    border-radius: 8px;
+    border: none; 
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+}
+.center_errors p .madus{
+    width: 270px;
+    border-radius: 8px;
+    border: none; 
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
 }

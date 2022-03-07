@@ -22,7 +22,13 @@
 .none{
     width: 40%;
     height: 100%;
-    color: pink;
+    color:rgb(89, 89, 139);
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* 
@@ -42,9 +48,25 @@ tech stacks */
 } 
 
 .tech_stacks ul li{
+    display: flex;
+    align-items: center;
     transition: 0.5s ease;
+    
 }
-
+.tech_stacks ul li .rate{
+    margin-right: 10px;
+    width: 40%;
+    border-radius: 5px;
+    height: 8px;
+    margin-left: 10px;
+    background-color: white;
+}
+.tech_stacks ul li .rated{
+    height: 100%;
+    width: 60%;
+    border-radius: 5px;
+    background-color: rgb(235, 155, 8);
+}
 .tech_stacks ul li:hover{
  font-weight: bold;
   color:white;
