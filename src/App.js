@@ -16,14 +16,11 @@ function App() {
     <BrowserRouter>
        <div  className='body'>
        <NavBar />
-       
-      
       <Routes >
         <Route path='/contact' element={<ContacForm /> } />
         <Route exact path='/' element={ <><Main /><Reviews /></> } />
         <Route exact path='/about' element={ <About />} />
      </Routes>
-     
       <DownBar />
     </div>
     </BrowserRouter>
